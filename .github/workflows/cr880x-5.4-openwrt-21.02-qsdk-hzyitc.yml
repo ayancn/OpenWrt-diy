@@ -18,7 +18,7 @@ on:
 
 env:
   REPO_URL: https://github.com/hzyitc/openwrt-redmi-ax3000
-  REPO_BRANCH: ipq50xx-mainline-kernel-5.4-openwrt-21.02-qsdk-wifi-rebase
+  REPO_BRANCH: ipq50xx-mainline-kernel-5.15-openwrt-23.05
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: cr880x.config
   DIY_P1_SH: diy-part1.sh
@@ -30,7 +30,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
 
     steps:
     - name: Checkout
