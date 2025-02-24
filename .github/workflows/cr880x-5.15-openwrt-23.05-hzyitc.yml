@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: CR880X 5.15 Openwrt-23.05
+name: CR880X 5.15 Openwrt-23.05 hzyitc
 
 on:
   repository_dispatch:
